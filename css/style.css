@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#up_head{
+    position: fixed;
+    background-color: #222;
+    width: 80%;
+    padding: 1% 10% 1% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1%;
+    box-shadow: 2px 2px 5px black;
+}
+
+#logo{
+    width: 10%;
+}
+nav{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>a{
+    color: grey;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+nav>a>img{
+    width: 10%;
+}
+nav>a:hover{
+    color: darkgrey;
+}
+
+#up_head>div{
+    width: 32%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: grey;
+    gap: 2%;
+    font-size: 1.1em;
+}
+#up_head>div>a{
+    text-decoration: none;
+    color: grey;
+}
+
+#up_head>div>ion-icon{
+    font-size: 1.4em;
+}
+
+#up_head>div>a:hover,#up_head>div>ion-icon:hover{
+    color: darkgrey;
+}
+
+#down_head{
+    margin-top: 3%;
+    width: 80%;
+    padding: 15% 10% 20% 10%;
+    background-image: url(../img/headback.jpg);
+    background-position: center;
+    color: #fff;
+}
+
+h1{
+    font-size: 3em;
+    width: 40%;
+    margin-bottom: 1%;
+}
+
+#down_head>p{
+    font-size: 1.8em;
+    width: 35%;
+    color: darkgrey;
+    margin-bottom: 1%;
+}
+
+#down_head>button{
+    padding: 1%;
+    text-align: center;
+    font-size: 1em;
+    width:10%;
+    border: none;
+    color: #fff;
+    background-color: red;
+}
